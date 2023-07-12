@@ -15,13 +15,13 @@ const App = () => {
   const age = ["21","22-1"]
 
   return (
-    <div>
+    <>
       <h1>Saludos, mi estimado:</h1>
       <br />
       <Hello name="Marco" age={10+12}/>
       <Hello name={name[0]} age={age[0]}/>
       <Hello name={name[1]} age={age[1]}/>
-    </div>
+    </>
   )
 }
 
