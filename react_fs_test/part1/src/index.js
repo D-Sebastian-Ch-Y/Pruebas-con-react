@@ -1,11 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
-const Hello = (props) => {
-  const name = props.name
-  const age = props.age
+const Hello = ({name, age}) => {
 
   const NacAn = () => {
+    //const ActualAn => new Date().getFullYear() - age
     const ActualAn = new Date().getFullYear()
     return ActualAn - age
   }
